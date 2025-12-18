@@ -1,0 +1,7 @@
+{
+  "name": "RRBN Official Portal",
+  "description": "Professional portal for the Radiographers Registration Board of Nigeria (RRBN), providing registration, training, directory, and member services.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
