@@ -61,18 +61,7 @@ export const Layout: React.FC<LayoutProps> = ({ currentView, setView, children }
           >
             {/* Logo Section - Placeholder for user's logo file */}
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-100 p-1">
-                <img 
-                  src="https://www.rrbn.gov.ng/wp-content/uploads/2021/04/RRBN-Logo.png" 
-                  alt="RRBN Logo" 
-                  className="w-full h-full object-contain"
-                  onError={(e) => {
-                    // Fallback if image fails
-                    e.currentTarget.src = "https://ui-avatars.com/api/?name=RRBN&background=008751&color=fff";
-                  }}
-                />
-              </div>
-              <div className="hidden sm:block">
+              <div className="">
                 <h1 className="text-xl font-black text-rrbn-green leading-none">RRBN</h1>
                 <p className="text-[10px] text-rrbn-red font-bold uppercase tracking-tight">Nigeria</p>
               </div>
